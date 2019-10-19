@@ -7,14 +7,11 @@ export class Login extends React.Component {
         this.state= {isLoggedIn: false,
             authValidate: false
         };
-
         this.logout = this.logout.bind(this);
     }
-    
     logout(){
         this.setState({authValidate: !this.state.authValidate, isLoggedIn:false});
     }
-
     render() {
         console.log("authValidate", this.state.authValidate);
         console.log("login",this.state.isLoggedIn);
