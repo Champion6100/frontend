@@ -3,19 +3,19 @@ import React from 'react';
 const emailRegex = RegExp(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/);
 
 const formValid = formErrors => {
-    let valid = true;
-    
+    let valid = true;    
     Object.values(formErrors).forEach(val => {
         val.length > 0 && (valid=false)
     });
     return valid;
 }
 
+
+
 export class Signup extends React.Component{
 
     constructor(props) {
         super(props);
-
         this.state = {
             full_name: null,
             contact_no: null,
