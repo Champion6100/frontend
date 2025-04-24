@@ -9,7 +9,7 @@
     "react-bootstrap": "^0.32.4",
     "react-bootstrap-validation": "^0.1.11",
     "react-dom": "^16.7.0",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^7.5.2",
     "react-scripts": "2.1.2",
     "react-validation": "^3.0.7"
   },
